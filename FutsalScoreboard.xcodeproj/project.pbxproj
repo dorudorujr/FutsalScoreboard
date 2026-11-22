@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60798F4005AB6597D5F16426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B716499060D666BB77083EE6 /* Assets.xcassets */; };
+		920F83C4098DB8CE47070848 /* FutsalScoreboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6789ACA9693F7C678070EF8 /* FutsalScoreboardTests.swift */; };
+		D1DD545307499E508D251640 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB77630702CA34B587F5D57C /* ContentView.swift */; };
+		EFF48E72FF0F3EC2915B9F34 /* FutsalScoreboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E094F3E732B58547F95B8B /* FutsalScoreboardApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51693A8B646E0EEB8052F5BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C40E1D660C0A527D8CAD32A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93C7DAF36B08F4F567617E6D;
+			remoteInfo = FutsalScoreboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AD399CA682E700917FFADAA /* FutsalScoreboard.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = FutsalScoreboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E094F3E732B58547F95B8B /* FutsalScoreboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutsalScoreboardApp.swift; sourceTree = "<group>"; };
+		7B2BB8680B15A7BD60273C46 /* FutsalScoreboardTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = FutsalScoreboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B716499060D666BB77083EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB77630702CA34B587F5D57C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F6789ACA9693F7C678070EF8 /* FutsalScoreboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutsalScoreboardTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		61D4C1E3A07B647FDD725727 /* FutsalScoreboard */ = {
+			isa = PBXGroup;
+			children = (
+				B716499060D666BB77083EE6 /* Assets.xcassets */,
+				CB77630702CA34B587F5D57C /* ContentView.swift */,
+				79E094F3E732B58547F95B8B /* FutsalScoreboardApp.swift */,
+			);
+			path = FutsalScoreboard;
+			sourceTree = "<group>";
+		};
+		6F1611A8AC4F400F0323F9A2 /* FutsalScoreboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6789ACA9693F7C678070EF8 /* FutsalScoreboardTests.swift */,
+			);
+			path = FutsalScoreboardTests;
+			sourceTree = "<group>";
+		};
+		A30CC6A0E2AA2062F434158C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AD399CA682E700917FFADAA /* FutsalScoreboard.app */,
+				7B2BB8680B15A7BD60273C46 /* FutsalScoreboardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C98C603231C778135F94DCBA = {
+			isa = PBXGroup;
+			children = (
+				61D4C1E3A07B647FDD725727 /* FutsalScoreboard */,
+				6F1611A8AC4F400F0323F9A2 /* FutsalScoreboardTests */,
+				A30CC6A0E2AA2062F434158C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93C7DAF36B08F4F567617E6D /* FutsalScoreboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F1B8FBA337ADEE28622429 /* Build configuration list for PBXNativeTarget "FutsalScoreboard" */;
+			buildPhases = (
+				155FE03A94FEE4CF6C762D5B /* Sources */,
+				471B6F8959801236D023F168 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FutsalScoreboard;
+			productName = FutsalScoreboard;
+			productReference = 2AD399CA682E700917FFADAA /* FutsalScoreboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D35F0E83079F75D20B7CDA87 /* FutsalScoreboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B851416B48F06BFAB23B0D1 /* Build configuration list for PBXNativeTarget "FutsalScoreboardTests" */;
+			buildPhases = (
+				F7BB7D030AA917F5ED5CDCEB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B4B7807E1E4BCF4F6146E5B /* PBXTargetDependency */,
+			);
+			name = FutsalScoreboardTests;
+			productName = FutsalScoreboardTests;
+			productReference = 7B2BB8680B15A7BD60273C46 /* FutsalScoreboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C40E1D660C0A527D8CAD32A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 6F3CCB6B45065C5FFF161F0E /* Build configuration list for PBXProject "FutsalScoreboard" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C98C603231C778135F94DCBA;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93C7DAF36B08F4F567617E6D /* FutsalScoreboard */,
+				D35F0E83079F75D20B7CDA87 /* FutsalScoreboardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		471B6F8959801236D023F168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60798F4005AB6597D5F16426 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		155FE03A94FEE4CF6C762D5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1DD545307499E508D251640 /* ContentView.swift in Sources */,
+				EFF48E72FF0F3EC2915B9F34 /* FutsalScoreboardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7BB7D030AA917F5ED5CDCEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920F83C4098DB8CE47070848 /* FutsalScoreboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B4B7807E1E4BCF4F6146E5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93C7DAF36B08F4F567617E6D /* FutsalScoreboard */;
+			targetProxy = 51693A8B646E0EEB8052F5BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26B1BB01E83A62C255B3B1F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		49F967D9C94B22AB47F01D19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "フットサル得点板";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorudorujr.FutsalScoreboard;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5B5D45A43997EEA93E9BBB39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorudorujr.FutsalScoreboardTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FutsalScoreboard.app/FutsalScoreboard";
+			};
+			name = Debug;
+		};
+		83D771328C8B4811179DFDBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "フットサル得点板";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorudorujr.FutsalScoreboard;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A68F148E503C52C6BA8C1187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dorudorujr.FutsalScoreboardTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FutsalScoreboard.app/FutsalScoreboard";
+			};
+			name = Release;
+		};
+		EBDE2B85ABB91A3BE09BCB94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F3CCB6B45065C5FFF161F0E /* Build configuration list for PBXProject "FutsalScoreboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B1BB01E83A62C255B3B1F8 /* Debug */,
+				EBDE2B85ABB91A3BE09BCB94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7B851416B48F06BFAB23B0D1 /* Build configuration list for PBXNativeTarget "FutsalScoreboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5D45A43997EEA93E9BBB39 /* Debug */,
+				A68F148E503C52C6BA8C1187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A8F1B8FBA337ADEE28622429 /* Build configuration list for PBXNativeTarget "FutsalScoreboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F967D9C94B22AB47F01D19 /* Debug */,
+				83D771328C8B4811179DFDBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C40E1D660C0A527D8CAD32A9 /* Project object */;
+}

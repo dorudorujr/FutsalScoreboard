@@ -1,0 +1,47 @@
+name: FutsalScoreboard
+options:
+  bundleIdPrefix: com.dorudorujr
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+targets:
+  FutsalScoreboard:
+    type: application
+    platform: iOS
+    sources:
+      - FutsalScoreboard
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.dorudorujr.FutsalScoreboard
+        TARGETED_DEVICE_FAMILY: "1"
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: フットサル得点板
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
+        INFOPLIST_KEY_UIStatusBarHidden: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+  FutsalScoreboardTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - FutsalScoreboardTests
+    dependencies:
+      - target: FutsalScoreboard
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+schemes:
+  FutsalScoreboard:
+    build:
+      targets:
+        FutsalScoreboard: all
+        FutsalScoreboardTests: [test]
+    test:
+      targets:
+        - FutsalScoreboardTests
