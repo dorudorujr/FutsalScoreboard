@@ -7,10 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11EB81FE01D6CFAC4ED87BC5 /* ScoreboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95965ADE01BB891F82222344 /* ScoreboardModel.swift */; };
+		23A95A393B7F4CF75E58E52D /* ScoreboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA5F3B405D61DED57C8078B /* ScoreboardView.swift */; };
 		60798F4005AB6597D5F16426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B716499060D666BB77083EE6 /* Assets.xcassets */; };
+		8517BE6766AFE2499F6A772E /* NotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE218C341700817FC075F421 /* NotificationScheduler.swift */; };
+		88F283579DE3E49DAD49049C /* AlertPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49670404472DACFE212F1BDC /* AlertPlayer.swift */; };
 		920F83C4098DB8CE47070848 /* FutsalScoreboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6789ACA9693F7C678070EF8 /* FutsalScoreboardTests.swift */; };
-		D1DD545307499E508D251640 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB77630702CA34B587F5D57C /* ContentView.swift */; };
+		96D9AE546767DFFCCF7B9B6F /* SettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322EE7933FAD17FCB0193CE6 /* SettingsSheet.swift */; };
+		98B9065D04C18A36A2C4BDA0 /* ToneGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F84C0A6073907F8D915D6D7 /* ToneGenerator.swift */; };
+		DA602B509881006AA3CE7AB7 /* DurationPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE30BF373E019D90CAF6A7B5 /* DurationPicker.swift */; };
+		E82EF11EAC20ABA5590CD6A1 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C8273739600BFB0BBF524A /* Match.swift */; };
 		EFF48E72FF0F3EC2915B9F34 /* FutsalScoreboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E094F3E732B58547F95B8B /* FutsalScoreboardApp.swift */; };
+		F43010EFDFFC044FA45B483C /* MatchSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A914B487C9F4709048580ED /* MatchSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,21 +32,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A914B487C9F4709048580ED /* MatchSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchSettings.swift; sourceTree = "<group>"; };
+		1EA5F3B405D61DED57C8078B /* ScoreboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardView.swift; sourceTree = "<group>"; };
 		2AD399CA682E700917FFADAA /* FutsalScoreboard.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = FutsalScoreboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		322EE7933FAD17FCB0193CE6 /* SettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSheet.swift; sourceTree = "<group>"; };
+		49670404472DACFE212F1BDC /* AlertPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPlayer.swift; sourceTree = "<group>"; };
+		6F84C0A6073907F8D915D6D7 /* ToneGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneGenerator.swift; sourceTree = "<group>"; };
 		79E094F3E732B58547F95B8B /* FutsalScoreboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutsalScoreboardApp.swift; sourceTree = "<group>"; };
 		7B2BB8680B15A7BD60273C46 /* FutsalScoreboardTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = FutsalScoreboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95965ADE01BB891F82222344 /* ScoreboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardModel.swift; sourceTree = "<group>"; };
+		A4C8273739600BFB0BBF524A /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
 		B716499060D666BB77083EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CB77630702CA34B587F5D57C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE218C341700817FC075F421 /* NotificationScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationScheduler.swift; sourceTree = "<group>"; };
+		EE30BF373E019D90CAF6A7B5 /* DurationPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationPicker.swift; sourceTree = "<group>"; };
 		F6789ACA9693F7C678070EF8 /* FutsalScoreboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutsalScoreboardTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		59C54B3D75792C0EC332358C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE30BF373E019D90CAF6A7B5 /* DurationPicker.swift */,
+				1EA5F3B405D61DED57C8078B /* ScoreboardView.swift */,
+				322EE7933FAD17FCB0193CE6 /* SettingsSheet.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6100DDA084AC029B17EDEE9A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A4C8273739600BFB0BBF524A /* Match.swift */,
+				1A914B487C9F4709048580ED /* MatchSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		61D4C1E3A07B647FDD725727 /* FutsalScoreboard */ = {
 			isa = PBXGroup;
 			children = (
 				B716499060D666BB77083EE6 /* Assets.xcassets */,
-				CB77630702CA34B587F5D57C /* ContentView.swift */,
 				79E094F3E732B58547F95B8B /* FutsalScoreboardApp.swift */,
+				95965ADE01BB891F82222344 /* ScoreboardModel.swift */,
+				6100DDA084AC029B17EDEE9A /* Models */,
+				803ADD60AB61D7BE97448774 /* Services */,
+				59C54B3D75792C0EC332358C /* Views */,
 			);
 			path = FutsalScoreboard;
 			sourceTree = "<group>";
@@ -49,6 +87,16 @@
 				F6789ACA9693F7C678070EF8 /* FutsalScoreboardTests.swift */,
 			);
 			path = FutsalScoreboardTests;
+			sourceTree = "<group>";
+		};
+		803ADD60AB61D7BE97448774 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				49670404472DACFE212F1BDC /* AlertPlayer.swift */,
+				BE218C341700817FC075F421 /* NotificationScheduler.swift */,
+				6F84C0A6073907F8D915D6D7 /* ToneGenerator.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		A30CC6A0E2AA2062F434158C /* Products */ = {
@@ -148,8 +196,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1DD545307499E508D251640 /* ContentView.swift in Sources */,
+				88F283579DE3E49DAD49049C /* AlertPlayer.swift in Sources */,
+				DA602B509881006AA3CE7AB7 /* DurationPicker.swift in Sources */,
 				EFF48E72FF0F3EC2915B9F34 /* FutsalScoreboardApp.swift in Sources */,
+				E82EF11EAC20ABA5590CD6A1 /* Match.swift in Sources */,
+				F43010EFDFFC044FA45B483C /* MatchSettings.swift in Sources */,
+				8517BE6766AFE2499F6A772E /* NotificationScheduler.swift in Sources */,
+				11EB81FE01D6CFAC4ED87BC5 /* ScoreboardModel.swift in Sources */,
+				23A95A393B7F4CF75E58E52D /* ScoreboardView.swift in Sources */,
+				96D9AE546767DFFCCF7B9B6F /* SettingsSheet.swift in Sources */,
+				98B9065D04C18A36A2C4BDA0 /* ToneGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +303,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "フットサル得点板";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -285,7 +341,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "フットサル得点板";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
